@@ -1,0 +1,79 @@
+#container{
+  background-color: #6f8a0e;
+  border-radius: 25px;
+  color: #000000;
+  margin: 30px auto;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#result-container{
+  background-color: #6f8a0e;
+  border-radius: 25px;
+  color: darkred;
+  margin: 30px auto;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#container-button {
+  margin-bottom: 10px;
+}
+#result-container {
+  opacity: 0;
+}
+#generator-top {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#generator-bottom {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+#from, #to, #button {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+#pfrom, #pto {
+  margin-bottom: 10px;
+}
+
+#pto, #pfrom, #pfromto, #presult, .generator, #version, label {
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+#version, #explanation {
+  font-size: 0.5em;
+  margin-top: 5px;
+}
+
+#input1, #input2 {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  width: 65%;
+}
+
+#but1, #reset {
+  display: inline-block;
+  background-color: lightslategrey;
+  border-radius: 10px;
+  color: white;
+  border: double 5px darkgoldenrod;
+  font-weight: bolder;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+#but1:hover, #reset:hover {
+  background-color: white;
+  color: red;
+  border-color: midnightblue;
+  cursor: pointer;
+  transform: scaleY(1.15) scaleX(1.15);
+}
